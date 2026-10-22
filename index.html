@@ -69,6 +69,8 @@ a:focus-visible, button:focus-visible{ outline:2px solid var(--forest); outline-
 .btn:hover{ background:var(--forest-dark) }
 .btn svg{ width:18px; height:18px; flex:none }
 .note{ font-size:.92rem; color:var(--muted) }
+.free{ display:inline-flex; align-items:center; gap:.5rem; width:max-content; max-width:100%; background:var(--sage-tint); border:1px solid #C6D2BC; color:var(--forest); font-weight:600; font-size:.97rem; padding:.5rem 1rem; border-radius:999px }
+.free svg{ width:20px; height:20px; flex:none }
 
 .specimen{ margin:0; justify-self:center; width:100%; max-width:400px; background:var(--card); padding:22px 22px 18px; border:1px solid var(--rule); box-shadow:0 26px 50px -30px rgba(46, 58, 51, .55); position:relative }
 .specimen::before{ content:""; position:absolute; inset:9px; border:1px solid var(--rule); pointer-events:none }
@@ -158,6 +160,7 @@ footer .wrap{ padding-block:28px 42px; display:grid; gap:8px; font-size:.88rem; 
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11.5 21 4l-7.5 17-2.2-7.3L3 11.5Z"/><path d="m11.3 13.7 4.2-4.2"/></svg>
         Записаться на консультацию
       </a>
+      <p class="free"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21V9" stroke="#2E4A3B" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M12 15c-5 0-7-3-7-7 4 0 7 2 7 7Z" fill="#95AA88" stroke="#2E4A3B"/><path d="M12 11c4 0 6-3 6-6-3 0-6 2-6 6Z" fill="#B9C9AE" stroke="#2E4A3B"/></svg>Первая сессия-знакомство (20 минут) – бесплатно</p>
       <p class="note">Онлайн, из любого города. Стоимость и удобное время обсудим при записи.</p>
     </div>
     <figure class="specimen">
@@ -239,7 +242,7 @@ footer .wrap{ padding-block:28px 42px; display:grid; gap:8px; font-size:.88rem; 
         <ol class="steps">
           <li><span class="n">I</span><span>Вы пишете мне в Telegram</span></li>
           <li><span class="n">II</span><span>Договариваемся о времени</span></li>
-          <li><span class="n">III</span><span>На первой встрече знакомимся и обсуждаем, с чем хочется разобраться</span></li>
+          <li><span class="n">III</span><span>Первая сессия-знакомство, 20 минут и бесплатно: знакомимся и обсуждаем, с чем хочется разобраться</span></li>
           <li><span class="n">IV</span><span>Дальше встречаемся онлайн в удобном ритме</span></li>
         </ol>
       </div>
@@ -268,7 +271,6 @@ footer .wrap{ padding-block:28px 42px; display:grid; gap:8px; font-size:.88rem; 
             <li>Когнитивно-поведенческая терапия (КПТ)</li>
             <li>Схема-терапия</li>
             <li>Терапия принятия и ответственности (ACT)</li>
-            <li>Арт-терапия</li>
           </ul>
         </div>
       </div>
@@ -284,7 +286,7 @@ footer .wrap{ padding-block:28px 42px; display:grid; gap:8px; font-size:.88rem; 
   <div class="wrap">
     <p class="label" style="color:#CFDCC4">Запись</p>
     <h2>Можно начать <em>с одного сообщения</em></h2>
-    <p>Напишите в двух словах, что вас беспокоит. Я отвечу и предложу время для первой встречи.</p>
+    <p>Напишите в двух словах, что вас беспокоит. Я отвечу и предложу время для бесплатной сессии-знакомства на 20 минут.</p>
     <a class="btn" href="https://t.me/LisavetteK" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11.5 21 4l-7.5 17-2.2-7.3L3 11.5Z"/><path d="m11.3 13.7 4.2-4.2"/></svg>
       Написать в Telegram
